@@ -1,0 +1,12 @@
+// CameraX
+    val cameraxVersion = "1.2.0-beta01"
+    implementation ("androidx.camera:camera-lifecycle:$cameraxVersion")
+    implementation ("androidx.camera:camera-video:$cameraxVersion")
+    implementation ("androidx.camera:camera-view:$cameraxVersion")
+    implementation ("androidx.camera:camera-extensions:$cameraxVersion")
+
+// Accompanist
+    val accompanistPermissionsVersion = "0.23.1"
+    implementation ("com.google.accompanist:accompanist-permissions:$accompanistPermissionsVersion")
+    implementation("io.coil-kt:coil-compose:2.6.0")
+    implementation("androidx.annotation:annotation:1.4.0")
